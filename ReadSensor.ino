@@ -10,24 +10,10 @@
 
   This example code is in the public domain.
 */
-/*
-  LPS22HB - Read Pressure
-
-  This example reads data from the on-board LPS22HB sensor of the
-  Nano 33 BLE Sense and prints the temperature and pressure sensor
-  value to the Serial Monitor once a second.
-
-  The circuit:
-  - Arduino Nano 33 BLE Sense
-
-  This example code is in the public domain.
-*/
-
-
 
 #include <Arduino_HS300x.h>
 #include <Arduino_LPS22HB.h>
-#include <Arduino_APDS9960.h>
+
 
 void setup() {
   Serial.begin(9600);
